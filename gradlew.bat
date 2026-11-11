@@ -19,7 +19,11 @@
 @if "%DEBUG%"=="" @echo off
 @rem ##########################################################################
 @rem
+<<<<<<< HEAD
 @rem  Gradle startup script for Windows
+=======
+@rem  gradlew startup script for Windows
+>>>>>>> 6f75636 (First commit with basic objects)
 @rem
 @rem ##########################################################################
 
@@ -72,7 +76,11 @@ echo location of your Java installation. 1>&2
 
 
 
+<<<<<<< HEAD
 @rem Execute Gradle
+=======
+@rem Execute gradlew
+>>>>>>> 6f75636 (First commit with basic objects)
 @rem endlocal doesn't take effect until after the line is parsed and variables are expanded
 @rem which allows us to clear the local environment before executing the java command
 endlocal & "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -jar "%APP_HOME%\gradle\wrapper\gradle-wrapper.jar" %* & call :exitWithErrorLevel
