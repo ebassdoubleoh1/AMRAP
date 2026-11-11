@@ -1,13 +1,15 @@
 package com.PSC.AMRAP.models;
 
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+
+@RequiredArgsConstructor
+@Getter
+@Setter
 public class Request {
     double OneRepMax;
     int Percentage;
     int Sets;
 
-    public Request(double oneRepMax, int percentage, int sets) {
-        OneRepMax = oneRepMax;
-        Percentage = percentage;
-        Sets = sets;
-    }
 }
